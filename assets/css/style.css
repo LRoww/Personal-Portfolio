@@ -23,21 +23,22 @@ h1 {
 }
 
 h2 {
-    font-size: 200%;
-    color: rgba(0, 0, 66, 0.308);
+    font-size: 150%;
+    color: grey;
     padding: 1%; 
-    flex-basis: 200px;  
+    flex-basis: 150px;  
 }
 
 header img {
     max-height: 50px;
 }
 
-nav ul {
-    min-width: 300px;
+nav li {
+    min-width: 100px;
 }
 
 nav a {
+    width: fit-content;
     text-decoration: none;
     color: lightblue;
 }
@@ -45,7 +46,6 @@ nav a {
 main {
     display: flex;
     flex-direction: column;
-    margin-left: 25%;
 }
 
 section{
@@ -95,7 +95,7 @@ section{
 
 .card-body {
     position: relative;
-    flex-basis: 48%;
+    flex-basis: 100%;
     overflow: hidden;
     padding: 1%;
     margin: 1%;
@@ -109,7 +109,7 @@ section{
 
 figcaption {
     position: absolute;
-    bottom: 50px;
+    bottom: 15%;
     width: fit-content;
     height: fit-content;
     background-color: lightblue;
@@ -124,16 +124,43 @@ footer {
 
 address {
     flex-basis: 75%;
+    padding: 1%;
+}
+
+address ul {
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 address ul a {
     text-decoration: none;
 }
 
-
-
 /*hover effects */
 
 img:hover {
     filter: brightness(100%);
+}
+
+/* mobile  */
+@media screen and (min-width: 768px) {
+    main {
+        margin-left: 15%;
+    }
+    h2 {
+        font-size: 200%;
+        flex-basis: 250px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        margin-left: 25%;
+    }
+    .card-body {
+        flex-basis: 48%;
+    }
+    h1 {
+        font-size: 250%;
+    }
 }

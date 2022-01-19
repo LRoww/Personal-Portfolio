@@ -1,9 +1,9 @@
-# Homework-1
+# Portfolio-HW2
 
 ## Description
+This portfolio aims to display ones work both by linking said work but also displaying the website itself. My focus was not on filling in my personal information but making the site functional and useful later when i have content I would like to display. 
 
-
-![Screenshot](/assets/images/screenshot.png)
+![Screenshot](assets\images\screenshot.PNG)
 
 [Site Linked Here](https://github.com/LRoww/Portfolio-HW2)
 
