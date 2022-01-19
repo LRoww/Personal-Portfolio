@@ -5,7 +5,7 @@ This portfolio aims to display ones work both by linking said work but also disp
 
 ![Screenshot](assets/images/screenshot.PNG)
 
-[Site Linked Here](https://github.com/LRoww/Portfolio-HW2)
+[Site Linked Here](https://lroww.github.io/Portfolio-HW2/)
 
 ## License
 Copyright 2022 Laura Rowe
