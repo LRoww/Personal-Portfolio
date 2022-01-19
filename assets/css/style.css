@@ -1,0 +1,139 @@
+
+body{
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+
+    background-color: gray;
+    color: lightblue;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 200%;
+    color: rgba(0, 0, 66, 0.308);
+    padding: 1%; 
+    flex-basis: 200px;  
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav ul {
+    min-width: 300px;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+section{
+    display: flex;
+}
+
+/* About me */
+
+.aboutMe {
+    align-items: center;
+}
+.aboutMe p {
+    padding: 1%;
+    flex-basis: 75%;
+}
+
+/* My Work */
+
+.work {
+    flex-direction: row;
+}
+.cards {
+    flex-direction: column;
+    flex-basis: 75%;
+}
+
+.main-card{
+    position: relative;
+    height: 325px;
+    flex-basis: 100%;
+    overflow: hidden;
+    padding: 1%;
+    background-color: lightblue;
+    margin: 1%;
+}
+
+.main-card img {
+    position: relative;
+    width: 100%;
+    filter: brightness(75%);
+}
+
+.sub-cards {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card-body {
+    position: relative;
+    flex-basis: 48%;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1%;
+    background-color: lightblue;
+}
+
+.card-body img {
+    width: 100%;
+    filter: brightness(75%);
+}
+
+figcaption {
+    position: absolute;
+    bottom: 50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: lightblue;
+    padding: 5px;
+}
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+address {
+    flex-basis: 75%;
+}
+
+address ul a {
+    text-decoration: none;
+}
+
+
+
+/*hover effects */
+
+img:hover {
+    filter: brightness(100%);
+}
