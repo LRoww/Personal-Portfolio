@@ -3,9 +3,9 @@
 ## Description
 This portfolio aims to display ones work both by linking said work but also displaying the website itself. My focus was not on filling in my personal information but making the site functional and useful later when i have content I would like to display. 
 
-![Screenshot](assets\images\screenshot.PNG)
+![Screenshot](assets/images/screenshot.PNG)
 
-[Site Linked Here](https://github.com/LRoww/Portfolio-HW2)
+[Site Linked Here](https://lroww.github.io/Portfolio-HW2/)
 
 ## License
 Copyright 2022 Laura Rowe
