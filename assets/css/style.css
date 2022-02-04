@@ -5,7 +5,7 @@ body{
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header {
@@ -63,7 +63,10 @@ section{
 }
 .aboutMe p {
     padding: 1%;
-    flex-basis: 75%;
+    margin: 1%;
+    flex-basis: 73%;
+    line-height: 1.5;
+    background-color: lightblue;
 }
 
 /* My Work */
@@ -118,7 +121,8 @@ figcaption {
     width: fit-content;
     height: fit-content;
     background-color: lightblue;
-    padding: 5px;
+    line-height: 1.5;
+    padding: 10px;
 }
 /* Footer */
 
@@ -135,6 +139,8 @@ address {
 address ul {
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: lightblue;
+    padding: 1%;
 }
 
 address ul a {
@@ -150,7 +156,7 @@ img:hover {
 /* mobile  */
 @media screen and (min-width: 768px) {
     main {
-        margin-left: 15%;;
+        margin-left: 10%;;
     }
     h2 {
         font-size: 200%;
@@ -160,7 +166,7 @@ img:hover {
 
 @media screen and (min-width: 992px) {
     main {
-        margin-left: 20%;
+        margin-left: 15%;
     }
     .card-body {
         flex-basis: 48%;
